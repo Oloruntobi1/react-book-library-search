@@ -9,7 +9,7 @@ class Book extends Component{
 
     updateShelf = (id, value) => {
 
-        this.props.updateBooksShelf(id, value)
+       
        
             const book = {
                 title: this.props.title,
@@ -18,7 +18,9 @@ class Book extends Component{
             }
 
             BooksApi.update(book, value)
-            .then((res) => {})
+            .then((res) => {
+                this.props.updateBooksShelf()
+            })
 
 }
 
