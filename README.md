@@ -5,10 +5,14 @@ Online Bookshelf as the name implies is a bookshelf bootstrapped with Create-Rea
 ## Installation
 
 After cloning or downloading the zip file of the project, you can run 
-```yarn install or npm install
+```
+yarn install or npm install
+
 ```
 in the root of the folder and afterwards
-```npm start or yarn start
+```
+npm start or yarn start
+
 ```
  which automatically opens the project in your browser.
 
